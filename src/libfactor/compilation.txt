@@ -1,0 +1,3 @@
+gcc -c demo.c -o demo.o
+gcc -c libfactor.c -o libfactor.o
+gcc demo.o libfactor.o -o factorial
